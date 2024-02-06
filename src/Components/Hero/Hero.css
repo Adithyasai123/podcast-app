@@ -1,0 +1,297 @@
+.Hero {
+  display: flex;
+  justify-content: space-between;
+}
+.container {
+  display: flex;
+}
+
+.pink-text {
+  top: 0px;
+  left: 0px;
+  width: 257px;
+  height: 84px;
+  text-align: left;
+  font: normal normal normal 60px/90px Poppins;
+  letter-spacing: 0px;
+  color: #ea0583;
+}
+
+.hero-text {
+  color: white;
+  font: normal normal normal 60px/90px Poppins;
+  letter-spacing: 0px;
+  opacity: 1;
+  padding-top: 63px;
+  padding-left: 77px;
+  padding-bottom: 12px;
+}
+
+.hero-sub-text1 {
+  top: 431px;
+  left: 77px;
+  width: 606px;
+  height: 52px;
+  line-height: 20px;
+  text-align: left;
+  font: normal normal 300 18px/27px Poppins;
+  letter-spacing: 0.09px;
+  color: #989393;
+  opacity: 1;
+  padding-left: 77px;
+}
+.hero-sub-text2 {
+  top: 431px;
+  left: 77px;
+  width: 606px;
+  height: 52px;
+  text-align: left;
+  font: normal normal 300 18px/27px Poppins;
+  letter-spacing: 0.09px;
+  color: #989393;
+  opacity: 1;
+  padding-left: 77px;
+  padding-bottom: 63.8px;
+  margin-bottom: 60px;
+}
+.btn {
+  position: absolute;
+  top: 620.38px;
+  left: 102px;
+  width: 260.68px;
+  height: 81.12px;
+  background: transparent linear-gradient(266deg, #4b0bca 0%, #ea0583 100%) 0%
+    0% no-repeat padding-box;
+  opacity: 1;
+  text-align: left;
+  font: normal normal normal 29px/43px Poppins;
+  font-family: Poppins, Regular;
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 1;
+  text-align: center;
+  overflow: hidden;
+}
+.btn:hover {
+  cursor: pointer;
+}
+
+.figures {
+  padding-top: 60.5px;
+  display: flex;
+  gap: 2rem;
+  margin-left: 77px;
+}
+.figures > div {
+  display: flex;
+  flex-direction: column;
+}
+.figures > div > span:nth-of-type(1) {
+  font-size: 2rem;
+  color: white;
+  top: 688px;
+  left: 77px;
+  padding-right: 89px;
+  width: 87px;
+  height: 49px;
+}
+.figures > div > span:nth-of-type(2) {
+  color: grey;
+  padding-left: 16px;
+  padding-bottom: 125.1px;
+}
+.arrowimg {
+  top: 893px;
+  padding-left: 344px;
+  width: 361px;
+  height: 255px;
+  background: transparent 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+
+.jazz-day {
+  display: flex;
+  flex-direction: column;
+  padding-left: 77px;
+  margin-top: -180px;
+}
+.jazz-daybox {
+  display: flex;
+  flex-direction: column;
+  top: 1526px;
+  margin-left: 77px;
+  width: 385px;
+  height: 280px;
+  color: #ffffff;
+  background: #1f2028;
+  border-radius: 0px 0px 36px 36px;
+  opacity: 1;
+}
+.jazz-header {
+  padding-left: 21px;
+  padding-right: 91px;
+  padding-top: 15px;
+  color: white;
+  text-align: left;
+  font-size: 20px;
+}
+.jazz-dp {
+  padding-top: 15.9px;
+  padding-left: 21px;
+  padding-right: 323.62px;
+  padding-bottom: 158.12px;
+}
+.jazz-text {
+  margin-top: -201.1px;
+  padding-left: 100px;
+  padding-right: 323.62px;
+  padding-bottom: 152px;
+  font-size: 14px;
+}
+.start-time {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  padding-left: 37px;
+  margin-top: -113px;
+  letter-spacing: 0px;
+  line-height: 25px;
+  color: #ffffff;
+  opacity: 1;
+}
+.end-time {
+  padding-right: 63px;
+  justify-content: space-between;
+}
+.play-time {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  top: 1682px;
+  left: 144px;
+  width: 205px;
+  height: 10px;
+  padding-left: 0px;
+  padding-top: 32px;
+}
+
+.playlist-button {
+  display: flex;
+  background-color: #ea0583;
+  border: none;
+  display: inline-block;
+  color: #ffffff;
+  text-align: center;
+  border-radius: 4px;
+  opacity: 1;
+}
+
+.playlist-button {
+  background-color: #ea0583;
+  text-decoration: none;
+  text-align: left;
+  left: 279px;
+  width: 150px;
+  height: 37px;
+  border: none;
+  padding-left: 33px;
+  font-family: Poppins, Regular;
+  color: #ffffff;
+  border-style: none;
+  margin-left: 202px;
+}
+.playlist-button:hover {
+  background-color: #ea0590;
+  cursor: pointer;
+}
+
+.Featured-text {
+  font-family: Poppins, Medium Italic;
+  font-size: 38px;
+  color: #ffffff;
+  text-align: left;
+  padding-left: 619px;
+  margin-top: 52px;
+}
+.Album-text {
+  font-family: Poppins, Medium Italic;
+  font-size: 38px;
+  color: #ea0583;
+  text-align: left;
+  padding-left: 653px;
+  margin-top: 32px;
+}
+.Creation-text {
+  font-family: Poppins, Medium Italic;
+  font-size: 38px;
+  color: #ffffff;
+  text-align: left;
+  padding-left: 619px;
+  margin-top: 31px;
+}
+.TopArtist-text {
+  font-size: 51px;
+  font-family: Poppins, Regular;
+  color: #ffffff;
+  text-align: center;
+  margin-top: 120px;
+  padding-left: 50px;
+  line-height: 150px;
+}
+.Artists-Albums {
+  display: flex;
+  justify-content: space-between;
+
+  background: #00000029 0% 0% no-repeat padding-box;
+  margin-left: 77px;
+  padding-bottom: 50px;
+  width: 50%;
+  height: 262px;
+  border-radius: 15px;
+}
+.dp {
+  display: flex;
+  padding-top: 30px;
+  padding-left: 10px;
+  padding-bottom: 10px;
+  width: 50px;
+  justify-content: space-between;
+}
+
+.Thomas-username {
+  margin-top: -53px;
+  padding-left: 73px;
+  padding-top: 10px;
+  color: #ffffff;
+  line-height: 0px;
+  justify-content: space-between;
+  display: flex;
+}
+.Thomas-twitter {
+  color: #ffffff;
+  padding-left: 78px;
+  font-size: 9px;
+  line-height: 0px;
+  justify-content: space-between;
+  display: flex;
+}
+.Join-button {
+  justify-content: space-between;
+  display: flex;
+  font:14px;
+  background-color: #EA0583;
+   text-align: center;
+  width: 150px;
+  height: 43px;
+  margin-left: 10px;
+  margin-right:70px;
+  margin-bottom: 20px;
+  margin-top:38px;
+  border: none;
+  display: inline-block;
+  text-align: center;
+  border-radius: 56px;
+    justify-content: center;
+    align-items: center;
+    opacity:1;
+}
