@@ -1,38 +1,852 @@
-.App {
+.html{
+  scroll-behavior: smooth;
+}
+
+
+.logo {
+  display: flex;
+  top: -21px;
+  left: 26px;
+  width: 170px;
+  opacity: 0.7;
+}
+.logo:hover{
+  opacity: 1;
+}
+.bubble-img1 {
+  height: 50px;
+  width: 50px;
+  margin-left: 100px;
+  margin-top: 10px;
+  padding-left: 10px;
+}
+.hero-images {
+  padding-left: 8px;
+}
+.hero-img1 {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 20px;
+  margin-left: 10px;
+  width: 40px;
+  height: 277px;
+   
+}
+.hero-img2 {
+  display: flex;
+  justify-content: flex-end;
+  width: 170px;
+  height: 233px;
+  margin-top: 64px;
+  margin-left: 5px;
+  margin-right:5px;
+  
+}
+.hero-img3 {
+  display: flex;
+  justify-content: flex-end;
+  width: 55px;
+  height: 293px;
+  padding-left: 0px;
+  margin-top: 65px;
+  opacity: 1;
+}
+.hero-img4 {
+  position: relative;
+  left: 10px;
+  width: 110px;
+  height: 318px;
+  bottom: 20px;
+  background: transparent url("../src/Assests/Path_4192.png") 0% 0% no-repeat
+    padding-box;
+  opacity: 1;
+}
+
+.view-main {
+  display: flex;
+  justify-content: start;
+}
+
+.view-button {
+  top: 664px;
+  left: 874px;
+  width: 134px;
+  height: 49px;
+  color: white;
+  border: none;
+  font-family: Poppins, Regular;
+  background: transparent url("../src/Assests/Path\ 4193.png") 0% 0% no-repeat
+    padding-box;
+}
+.view-artist-button {
+  position: relative;
+  width: 134px;
+  height: 49px;
+  color: white;
+  border: none;
+  font-family: Poppins, Regular;
+  background: #ffffff00 0% 0% no-repeat padding-box;
+  border: 2px solid #707070;
+  opacity: 1;
+  margin-left: 10px;
+}
+
+.Main-Heading {
+  margin-top: 20px;
+  color: #ea0583;
+}
+
+.Nav_main {
+  background-color: #0e101c;
+  padding: 0.8rem 0.8rem !important;
+  font-family: Poppins, Regular;
+}
+
+.nav-link:hover {
+  color: #ea0583;
+}
+.nav_ul li {
+  padding: 0 16px;
+}
+.Hero-section {
+  padding-top: 80px;
+}
+.pink-text {
+  color: #ea0583;
+  font-size: 60px;
+  font-family: "Poppins", sans-serif;
+}
+.Hero-Header {
+  color: white;
+  font-size: 60px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  letter-spacing: 0px;
+  font-family: "Poppins", sans-serif;
+  margin-left: 10px;
+}
+.Hero-para1 {
+  text-align: left;
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  margin-top: 10px;
+  margin-left: 10px;
+  letter-spacing: 0.09px;
+  color: #989393;
+  opacity: 1;
+}
+.Hero-para2 {
+  text-align: left;
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  margin-top: 10px;
+  margin-left: 10px;
+  letter-spacing: 0.09px;
+  color: #989393;
+  opacity: 1;
+}
+.exp_btn {
+  width: 250.68px;
+  height: 80.12px;
+  background: transparent linear-gradient(266deg, #4b0bca 0%, #ea0583 100%) 0%0%
+    no-repeat padding-box;
+  font-family: Poppins, Regular;
+  font-size: 29px;
+  color: #ffffff;
+  letter-spacing: 0px;
   text-align: center;
+  margin-top: 40px;
+  margin-left: 30px;
+  border: none;
+  border-radius: 10px;
+}
+.figures {
+  display: flex;
+  justify-content: space-between;
+  font-family: Poppins, Regular;
+  margin-top: 50px;
+  
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.figures > div {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+
+.figures > div > span:nth-of-type(1) {
+  font-size: 17px;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+
+ 
+  /*                  Albums                 */
+
+
+.arrowimg {
+  background: transparent 0% 0% no-repeat padding-box;
+  justify-content: center;
+  opacity: 1;
+  margin-top: 35px;
+  position: relative;
+  right: 15px;
+  width: 75%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+ 
+  /*                  Jazz-day-one                 */
+
+.jazz-day {
+  width: 255px;
+  margin-top: 304px;
+  opacity:0.8;
+}
+.jazz-day:hover{
+  opacity: 1;
+  cursor: pointer;
+}
+
+.jazz-daybox {
+  background-color: #1f2028;
+  color: white;
+  font-family: Poppins, Regular;
+  width: 255px;
+  height: 246px;
+  margin-bottom: 120px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.jazz-header {
+  margin-left: 10px;
+  color: white;
+  font-family: Poppins, Regular;
+  text-align: left;
+  font-size: 16px;
+}
+.jazz-dp {
+  padding-top: 15.9px;
+  padding-left: 21px;
+  padding-bottom: 10px;
+}
+.jazz-text {
+  padding-left: 10px;
+
+  font-size: 14px;
+}
+.start-time {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  padding-left: 12px;
+  line-height: 25px;
+  color: #ffffff;
+  opacity: 1;
+}
+.end-time {
+  justify-content: space-between;
+  margin-right: 10px;
+}
+.play-time {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 156px;
+  height: 10px;
+  padding-left: 0px;
+  margin-top: 34px;
+}
+
+.playlist-button {
+  background-color: #ea0583;
+  text-decoration: none;
+  text-align: left;
+  width: 150px;
+  height: 37px;
+  border: none;
+  border-radius: 4px;
+  display: inline-block;
+  padding-left: 33px;
+  margin-left: 90px;
+  font-family: Poppins, Regular;
+  color: #ffffff;
+}
+.playlist-button:hover {
+  background-color: #ea0590;
+  cursor: pointer;
+}
+.Featured-text {
+  text-align: center;
+  font-size: 30px;
+  font-family: Poppins, Medium Italic;
+  color: white;
+  line-height: 80px;
+  margin-top: 20px;
+}
+.Featured-text:hover{
+  color: #EA0583;
+  cursor: pointer;
+}
+.Creation-text {
+  text-align: center;
+  font-size: 30px;
+  font-family: Poppins, Medium Italic;
+  color: white;
+  line-height: 80px;
+  margin-top: 20px;
+}
+.Creation-text:hover{
+  color: #EA0583;
+  cursor: pointer;
+}
+.Album-text {
+  text-align: center;
+  font-family: Poppins, Medium Italic;
+  font-size: 30px;
+  color: #ea0583;
+  line-height: 60px;
+}
+.Album-text:hover{
+  color: #ffffff;
+  cursor: pointer;
+}
+ 
+  /*                  Jazz-day-two                 */
+
+
+.jazz-day2 {
+  width: 250px;
+  margin-top: 50px;
+  opacity: 0.8;
+}
+.jazz-day2:hover{
+  opacity: 1;
+  cursor: pointer;
+}
+
+.jazz-daybox2 {
+  background-color: #1f2028;
+  color: white;
+  font-family: Poppins, Regular;
+  width: 250px;
+  height: 250px;
+  margin-bottom: 30px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  background: #1f2028 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+.jazz-dp2 {
+  padding-top: 15.9px;
+  padding-left: 21px;
+  padding-bottom: 10px;
+}
+.jazz-text2 {
+  padding-left: 10px;
+
+  font-size: 14px;
+}
+.start-time2 {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  padding-left: 12px;
+  line-height: 25px;
+  color: #ffffff;
+  opacity: 1;
+}
+.end-time2 {
+  justify-content: space-between;
+  margin-right: 10px;
+}
+.play-time2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 156px;
+  height: 10px;
+  padding-left: 0px;
+  margin-top: 34px;
+}
+
+.playlist-button2 {
+  background-color: #ea0583;
+  text-decoration: none;
+  text-align: left;
+  width: 150px;
+  height: 37px;
+  border: none;
+  border-radius: 4px;
+  display: inline-block;
+  padding-left: 33px;
+  margin-left: 90px;
+  font-family: Poppins, Regular;
+  color: #ffffff;
+  border: none;
+}
+.playlist-button:hover {
+  background-color: #ea0590;
+  cursor: pointer;
+}
+
+.heroin-text {
+  letter-spacing: 0.09px;
+  color: #989393;
+  font-family: Poppins, Regular;
+  font-size: 18px;
+  padding-left: 10px;
+}
+
+.explore-button {
+  width: 195.68px;
+  height: 77.12px;
+  background: transparent linear-gradient(266deg, #4b0bca 0%, #ea0583 100%) 0%0%
+    no-repeat padding-box;
+  font-family: Poppins, Regular;
+  font-size: 29px;
+  color: #ffffff;
+  letter-spacing: 0px;
+  text-align: center;
+  margin-top: 20px;
+  position: relative;
+  left: 45px;
+  margin-bottom: 40px;
+  border: none;
+  border-radius: 10px;
+}
+.Top-artists {
+  font-size: 51px;
+  color: white;
+  text-align: center;
+  font-family: Poppins, Regular;
+}
+.Top-artists:hover{
+  color: #ea0583;
+  cursor: pointer;
+}
+
+.main-container {
+  width: 80%;
+  height: 198px;
+  background-color:#6c757d;
+  margin-bottom: 30px;
+  margin-top: 30px;
+  border-radius: 20px;
+  margin-left: 20px;
+  opacity: 1;
+}
+.main-container:hover{
+  opacity:0.7;
+  cursor: pointer;
+}
+.second-con {
+  display: flex;
+  justify-content: space-between;
+}
+
+.dp {
+  margin-top: 20px;
+  margin-left: 20px;
+}
+.Thomas-main {
+  margin-top: 20px;
+}
+.Thomas-username {
+  color: #ffffff;
+  margin-left: 5px;
+}
+.Thomas-twitter {
+  font-size: 9px;
+  color: #ffffff;
+  margin-left: 5px;
+}
+
+.join-button {
+  background-color: #ea0583;
+  text-decoration: none;
+  text-align: center;
+  left: 279px;
+  width: 100px;
+  height: 45px;
+  border: none;
+  font-family: Poppins, Regular;
+  color: #ffffff;
+  border-style: none;
+  border-radius: 30px;
+  margin-right: 15px;
+}
+.join-button:hover {
+  background-color: #ea0590;
+  cursor: pointer;
+}
+.box-img1 {
+  display: flex;
+  position: relative;
+  width: 95%;
+  margin-top: 20px;
+  margin-left: 6px;
+}
+.box-img2 {
+  display: flex;
+  margin-top: 85px;
+  margin-right: -228px;
+  margin-bottom: 50px;
+  margin-left: -100px;
+  width: 204%;
+}
+.box-img3 {
+  display: flex;
+  margin-top: 85px;
+  margin-right: -228px;
+  margin-bottom: 50px;
+  margin-left: -100px;
+  width: 204%;
+}
+.box-img4 {
+  display: flex;
+  margin-top: 85px;
+  margin-right: -228px;
+  margin-bottom: 50px;
+  margin-left: -100px;
+  width: 204%;
+}
+
+.create-text {
+  font-size: 51px;
+  font-family:Poppins, Medium Italic;
+  color: white;
+  display: flex;
+  text-align: center;
+  margin-top: 65px;
+}
+.create-text:hover{
+  color: #EA0583;
+  cursor: pointer;
+}
+.create-main {
+  margin-bottom: 100px;
+}
+.create-para {
+  font-size: 16px;
+  color: #989393;
+  text-align: center;
+  font-family: Poppins, Light;
+}
+
+.string-img {
+  position: relative;
+  top: 50px;
+  left: 45px;
+  margin-bottom: 80px;
+  background: transparent url("Assests/Path_4296.png") 0% 0% no-repeat
+    padding-box;
+  opacity: 1;
+}
+.pink-background {
+  position: relative;
+  left: -554.1771240234375px;
+  width: 1186px;
+  height: 980px;
+  transform: matrix(0.97, 0.26, -0.26, 0.97, 0, 0);
+  opacity: 0.24;
+  filter: blur(50px);
+}
+.collection-main {
+  margin-top: 10px;
+}
+.collectionimage {
+  position: relative;
+  top: 40px;
+  left: 108px;
+  display: flex;
+  justify-content: center;
+}
+
+.collection-text-header {
+  font-size: 27px;
+  color: #ffffff;
+  margin-top: 65px;
+  margin-left: 52px;
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+.collection-text {
+  font-size: 16px;
+  color: #989393;
+  text-align: center;
+  margin-right: 70px;
+  margin-bottom: 40px;
+}
+
+.Album-img {
+  display: flex;
+  position: relative;
+  left: 145px;
+}
+.collection-main-album {
+  position: relative;
+  top: 20px;
+}
+
+.Album-header {
+  font-size: 27px;
+  color: white;
+  left: 140px;
+  margin-bottom: 10px;
+  position: relative;
+}
+.Album-para {
+  font-size: 13px;
+  color: #989393;
+  text-align: center;
+  position: relative;
+}
+
+.Artists-img {
+  position: relative;
+  top: 145px;
+  left: 140px;
+  display: flex;
+  justify-content: center;
+}
+
+.Artists-main {
+  margin-top: 160px;
+}
+.Artists-header {
+  font-size: 27px;
+  margin-top: 20px;
+  color: white;
+  margin-left: 135px;
+  margin-bottom: 10px;
+}
+.Artists-para {
+  font-size: 16px;
+  color: #989393;
+  text-align: center;
+  margin-left: 20px;
+}
+
+.cheering_crowd-img {
+  margin-top: 150px;
+  display: flex;
+  justify-content: center;
+  width: 85%;
+}
+.pause-img {
+  position: relative;
+  top: -310px;
+  left: 155px;
+  display: flex;
+}
+.right-side-container {
+  margin-top: 150px;
+}
+
+.Music-band-text {
+  font-size: 51px;
+  color: white;
+  font-family: Poppins, Regular;
+  text-align: left;
+}
+
+.Music-para-main {
+  margin-top: 30px;
+}
+.Music-band-para {
+  font-size: 18px;
+  font-family: Poppins, Light;
+  color: #989393;
+}
+
+.contact-button {
+  width: 250.68px;
+  height: 80.12px;
+  background: transparent linear-gradient(266deg, #4b0bca 0%, #ea0583 100%) 0%0%
+    no-repeat padding-box;
+  font-family: Poppins, Regular;
+  font-size: 29px;
+  color: #ffffff;
+  letter-spacing: 0px;
+  text-align: center;
+  margin-top: 40px;
+  border: none;
+  margin-bottom: 70px;
+  border-radius: 10px;
+}
+
+.Ready-text {
+  color: #c5bdbd;
+  font-size: 18px;
+  font-family: Poppins, Regular;
+}
+.ready_button {
+  position: relative;
+}
+.Get-started-button {
+  background-color: #ea0583;
+  color: white;
+  font-family: Poppins, Regular;
+  border: none;
+  width: 172px;
+  height: 50px;
+  margin-left: 20px;
+  margin-bottom: 30px;
+  margin-top: 10px;
+}
+
+.subscribe-text {
+  font-size: 25px;
+  font-family: Poppins, Regular;
+  color: white;
+}
+
+.email {
+  color: white;
+  font-size: 20px;
+  font-family: Poppins, Regular;
+  margin-bottom: 60px;
+  margin-top: 40px;
+  background-origin: padding-box;
+  position: relative;
+}
+.email-box {
+  background: #0e101c 0% 0% no-repeat padding-box;
+  color: white;
+  opacity: 1;
+  border: none;
+}
+.email-btn {
+  background-color: #ea0583;
+  width: 60px;
+  height: 45px;
+  border: none;
+  color: white;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+.email-img {
+  position: absolute;
+  left: 256px;
+  width: 13%;
+  top: -8px;
+}
+
+.email-img:hover {
+  cursor: pointer;
+}
+
+.Bottom-text {
+  font-size: 20px;
+  color: #c5bdbd;
+  margin-bottom: 10px;
+}
+
+.pp-text {
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+.bottom-info {
+  font-size: 14px;
+  color: #c5bdbd;
+  list-style: none;
+}
+.bottom-info:hover {
+  cursor: pointer;
+}
+
+.music-main {
+  background-image: url(../src/Assests/Ellipse_36.png);
+  background-size: 200% 200%;
+  background-position-x: 10%;
+  background-position-y: 53%;
+}
+.pink-back-img {
+  background-image: url(../src/Assests/Path_4295.png);
+  background-size: 200% 200%;
+  background-position-x: 88%;
+  background-position-y: 48%;
+}
+.container-top {
+  background-color: #4b0bca 0% 0% no-repeat padding-box;
+}
+
+.container-music {
+  padding: 4%;
+}
+.container-Albums {
+  padding: 5%;
+  background-image: url(../src/Assests/Ellipse_36.png);
+  background-size: 150% 128%;
+  background-position-x: -50%;
+  background-position-y: 143%;
+  opacity: 0.9;
+}
+.container-create {
+  padding: 3.7%;
+}
+
+/*                   Routing                         */
+
+.Trending-container{
+  background-color: #0E101C;
+  padding-bottom: 260px;
+  color:white
+}
+.Resources-container{
+  background-color: #0E101C;
+  padding-bottom: 260px;
+  color:white
+}
+.Register-container{
+  background-color: #0E101C;
+  padding-bottom: 260px;
+  color:white;
+  font-family: Poppins, Regular;
+}
+.No-data-img{
+  width:27%;
+  opacity: 0.5;
+  padding-bottom: 260px;
+}
+.No-data-img:hover{
+  opacity: 1;
+  cursor:not-allowed;
+}
+.Register-logo-1{
+  position: absolute;
+  width: 25%;
+  top:70px;
+  right:250px;
+  opacity: 0.8;
+}
+.Register-logo-1:hover{
+  opacity: 1;
+  cursor: pointer;
+}
+.Register-logo-2{
+  position: absolute;
+  width: 25%;
+  top:310px;
+  right:45px;
+  opacity: 0.8;
+}
+.Register-logo-2:hover{
+  opacity: 1;
+  cursor: pointer;
+}
+
+.abc{
+  display: flex;
+  font-family: Poppins, Regular;
+  color: white;
+  font-size: 35px;
 }
